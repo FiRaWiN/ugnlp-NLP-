@@ -1,5 +1,9 @@
 # ugnlp — 轻量级维吾尔语/中文 NLP 工具集
 
+[![tests](https://github.com/FiRaWiN/ugnlp-NLP-/actions/workflows/tests.yml/badge.svg)](https://github.com/FiRaWiN/ugnlp-NLP-/actions/workflows/tests.yml)
+[![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
 **English** | [中文](#中文)
 
 A zero-dependency Python toolkit for Uyghur ↔ Chinese e-commerce text processing:
