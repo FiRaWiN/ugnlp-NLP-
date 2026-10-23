@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ugnlp"
+version = "0.1.0"
+description = "Lightweight Uyghur/Chinese NLP toolkit: script conversion, suffix splitting, bilingual glossary, digit normalization."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Attila" }]
+keywords = ["uyghur", "nlp", "transliteration", "tokenization", "e-commerce", "bilingual"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Text Processing :: Linguistic",
+]
+
+[project.scripts]
+ugnlp = "ugnlp.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["ugnlp*"]
+
+[tool.setuptools.package-data]
+ugnlp = ["data/*.json"]
